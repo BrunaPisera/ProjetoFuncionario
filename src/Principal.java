@@ -8,7 +8,7 @@ public class Principal {
         System.out.println(empregado1.getSalary());
 
         //System.out.println(empregado2.getName());
-        //System.out.println(empregado2.getSobrenome());
+        System.out.println(empregado2.getSobrenome());
         System.out.println(empregado2.getSalary());
 
         empregado1.setRaseSalary();
@@ -16,6 +16,8 @@ public class Principal {
 
         System.out.println(empregado1.getSalary());
         System.out.println(empregado2.getSalary());
+
+        System.out.println("teste");
     }
 
 }
