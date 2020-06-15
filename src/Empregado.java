@@ -7,7 +7,7 @@ public class Empregado {
         this.name =  name;
         this.sobrenome = sobrenome;
         if(salary < 0){
-            this.salary = 1.00;
+            this.salary = 10.00;
         }else{
            this.salary =  salary;
         }
